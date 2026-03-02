@@ -1,0 +1,18 @@
+Lời đầu tiên, em xin phép gửi lời xin lỗi vì sự phản hồi chậm trễ này. Do trước đó em có việc gia đình đột xuất nên hôm nay em mới có thể gửi báo cáo tiến độ ạ.
+
+Em xin báo cáo tiến độ project như sau ạ:
+
+Chủ đề: machine translating en-vi with transformer attention
+data source: English-Vietnamese translation by HUKUDO (Kaggle)-bộ dữ liệu gồm 2 file en_sents(gồm các mẫu câu tiếng tiếng anh) và vi_sents (gồm bản dịch tiếng việt của các mẫu câu ở file eng_sents) tổng cộng khoảng 254000 mẫu câu.
+Đã thực hiện:
+Tiền xử lý dữ liệu:
+Loại bỏ các ký tự đặc biệt, dấu câu, dấu cách ở đầu và cuối câu, lowercase tất cả các cặp câu
+
+Xây dựng tokenizer cho ngôn ngữ nguồn và đích 
+Tạo bộ vocab 
+Xây dựng mô hình:
+Đã xây dựng và ghép nối mô hình hoàn chỉnh và xây dựng luồng huấn luyện và đã huấn luyện thử được 1 vài epoch 
+Đang thực hiện:
+Thử kết hợp Label Smoothing để giảm overfit, xây dựng hàm translate và  
+kiểm thử, xây dựng giao diện (nếu còn đủ thời gian)
+Em cảm ơn thầy đã dành thời gian đọc tin phản hồi của em ạ 
